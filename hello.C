@@ -1,4 +1,9 @@
 #include <iostream>
+
+/*
+A program by Dan Bennett
+*/
+
 using namespace std;
 
 int main() {
