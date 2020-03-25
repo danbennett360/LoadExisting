@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 
 /*
 A program by Dan Bennett
@@ -6,11 +7,20 @@ A program by Dan Bennett
 
 using namespace std;
 
-int main() {
+int main(int argc, char * argv[]) {
 
+    string greeting = "Hello World";
+
+    if (argc > 1) {
+        if (!strcmp(argv[1], "German")){
+	    greeting = "Hallo Welt!";
+	} else if (!strcmp(argv[1],"Pig") ) {
+	    greeting = "elloHay orldWay!";
+	}
+    }
     // the universal first program
-    cout <<"Hello World!" << endl;
+    cout << greeting << endl;
 
-    /* all finished, return
+    // all finished, return
     return 0;
 }

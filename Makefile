@@ -1,4 +1,4 @@
-all: main
+all: hello
 
 clean:
-	rm -f main
+	rm -f hello
