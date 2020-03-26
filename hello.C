@@ -16,6 +16,8 @@ int main(int argc, char * argv[]) {
 	    greeting = "Hallo Welt!";
 	} else if (!strcmp(argv[1],"Pig") ) {
 	    greeting = "elloHay orldWay!";
+	} else if (!strcmp(argv[1],"Spanish") ) {
+	    greeting = "Hola Mundo!";
 	}
     }
     // the universal first program
