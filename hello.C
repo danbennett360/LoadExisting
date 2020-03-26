@@ -7,6 +7,8 @@ A program by Dan Bennett
 
 using namespace std;
 
+void PrintGreeting(string greeting);
+
 int main(int argc, char * argv[]) {
 
     string greeting = "Hello World";
@@ -18,9 +20,12 @@ int main(int argc, char * argv[]) {
 	    greeting = "elloHay orldWay!";
 	}
     }
-    // the universal first program
-    cout << greeting << endl;
 
-    // all finished, return
+    PrintGreeting(greeting);
     return 0;
+}
+
+void PrintGreeting(string greeting) {
+    cout << greeting << endl;
+    return;
 }
